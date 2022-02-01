@@ -17,4 +17,135 @@
 /* BACKGROUND */
 body {
     background: var(--very-light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* MAIN */
+main {
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    width: 260px;
+    height: 428px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+#card-01 {
+    background: var(--bright-orange);
+}
+
+#card-02 {
+    background: var(--dark-cyan);
+}
+
+#card-03 {
+    background: var(--very-dark-cyan);
+}
+
+/* CARDS' IMAGES */
+.icons {
+    width: 64px;
+    height: 40px;
+    margin-bottom: 27px;
+}
+
+/* CARDS' TEXT */
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 600;
+    color: var(--very-light-gray);
+    margin-bottom: 27px;
+    letter-spacing: 1px;
+}
+
+.cards-paragraph {
+    font-size: 14px;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--transparent-white);
+    font-weight: 600;
+    margin-bottom: 90px;
+    line-height: 20px;
+}
+
+.button {
+    background: var(--very-light-gray);
+    width: fit-content;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 2px solid var(--transparent-white);
+}
+
+#button-01 {
+    color: var(--bright-orange);
+}
+
+#button-02 {
+    color: var(--dark-cyan);
+}
+
+#button-03 {
+    color: var(--very-dark-cyan);
+}
+
+/* HOVER EFFECTS */
+#button-01:hover {
+    background: var(--bright-orange);
+    color: var(--very-light-gray);
+}
+
+#button-02:hover {
+    background: var(--dark-cyan);
+    color: var(--very-light-gray);
+}
+
+#button-03:hover {
+    background: var(--very-dark-cyan);
+    color: var(--very-light-gray);
+}
+
+/* ADDRESS */
+address {
+    background-color: var(--very-dark-cyan);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 59px;
+}
+
+.linkedin-link {
+    display: flex;
+    align-items: center;
+}
+
+.authors-image {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #F3F3F3;
+    border-radius: 50%;
+}
+
+#credits {
+    font-family: 'Patua One', cursive;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 200;
+    margin-left: 6px;
 }
