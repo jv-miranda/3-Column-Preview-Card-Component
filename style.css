@@ -133,6 +133,7 @@ address {
 .linkedin-link {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .authors-image {
@@ -148,4 +149,40 @@ address {
     font-size: 10px;
     font-weight: 200;
     margin-left: 6px;
+}
+
+/* TABLET */
+@media (max-width: 780px) {
+    #card-01 {
+        border-radius: 10px 0px 0px 0px;
+    }
+
+    #card-02 {
+        border-radius: 0px 10px 0px 0px;
+    }
+    
+    #card-03 {
+        margin-bottom: 90px;
+        width: 520px;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 519px) {
+    .card {
+        width: 340px;
+    }
+
+    #card-01 {
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    #card-02 {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    #card-03 {
+        width: 340px;
+    }
 }
